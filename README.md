@@ -20,7 +20,7 @@ ls -a|--all               # List directories including hidden
 ls -l                     # List directories in long form
 ls -l -h|--human-readable # List directories in long form with human readable sizes
 ls -t                     # List directories by modification time, newest first
-ls *.html
+ls *.html                 # LIst directories by regex
 stat foo.txt              # List size, created and modified timestamps for a file
 stat foo                  # List size, created and modified timestamps for a directory
 tree                      # List directory and file tree
